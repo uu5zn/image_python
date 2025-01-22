@@ -1,16 +1,19 @@
+# -*- coding: utf-8 -*-
+
+# ä½ çš„ä»£ç åœ¨è¿™é‡Œ
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Éú³ÉÒ»Ğ©Ëæ»úÊı¾İ
+# ç”Ÿæˆä¸€äº›éšæœºæ•°æ®
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
-# ´´½¨Í¼±í
+# åˆ›å»ºå›¾è¡¨
 plt.figure(figsize=(8, 6))
 plt.plot(x, y)
 plt.title("Generated Image")
 plt.xlabel("X Axis")
 plt.ylabel("Y Axis")
 
-# ±£´æÍ¼Æ¬
-plt.savefig("image.png") # ½«Í¼Æ¬±£´æÎª image.png
+# ä¿å­˜å›¾ç‰‡
+plt.savefig("image.png") # å°†å›¾ç‰‡ä¿å­˜ä¸º image.png
